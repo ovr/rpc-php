@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpRpc;
+namespace RpcPhp;
 
 class Client
 {
