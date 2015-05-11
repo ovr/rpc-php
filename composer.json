@@ -1,0 +1,15 @@
+{
+	"name": "php-rpc/php-rpc",
+	"description": "",
+	"minimum-stability": "dev",
+	"license": "MIT",
+	"authors": [],
+	"require-dev": {
+		"phpunit/phpunit": ">=4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"PhpRpc\\": "src/"
+		}
+	}
+}
