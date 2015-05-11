@@ -3,7 +3,7 @@
 #### Client
 ```php
 $redisClient = new \Redis();
-$rpc = new \RpcPhp\Client($redis);
+$rpc = new \RpcPhp\Client($redisClient);
 
 $queue = 'Youtube';
 $remoteFunction = 'fetchVideos';
